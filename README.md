@@ -8,7 +8,7 @@ Comenzare con lo basico, un poco de HTML, CSS y un poco de JavaScript.
 
 --------------------------------------------------------------------------------------------------------
 # 1
-He creado la primera página de precentación de i portafolio de actividades, 
+He creado la primera página de precentación de mi portafolio de actividades, 
 consiste de un archivo index.html y una hoja de css.
 
 ---------------------------------------------------------------------------------------------------------
