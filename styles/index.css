@@ -40,7 +40,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: brown;
+    color: rgb(28, 106, 146);
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -118,7 +118,7 @@ section{
 }
 
 span{
-    color: red;
+    color: rgb(45, 229, 210);
 }
 
 .home-content h3{
@@ -179,19 +179,19 @@ span{
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: rgb(190, 116, 116);
+    color: red;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid rgb(194, 79, 79);
+    border: 2px solid red;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover{
     transform: scale3d(1.03);
-    background-color: rgb(168, 74, 74);
+    background-color: rgb(51, 156, 165);
     color: black;
-    box-shadow: 0 0 25px rgb(146, 43, 43);
+    box-shadow: 0 20 80px rgb(26, 47, 132);
 }
 
 .typing-text{
@@ -212,7 +212,7 @@ span{
 .typing-text span::before{
     content: "Software Developer";
     color: rgb(169, 39, 39);
-    animation: words 10s infinite;
+    animation: words 15s infinite;
 }
 
 .typing-text span::after{
@@ -223,7 +223,7 @@ span{
     height: 100%;
     border-left: 3px solid black;
     right: -8;
-    animation: cursor 3s steps(22) forwards, blink 1s step-end infinite; 
+    animation: cursor 0.6s steps(12) forwards, blink 1s step-end infinite; 
 }
 
 @keyframes cursor{
@@ -233,21 +233,50 @@ span{
 }
 
 @keyframes words{
-    0%, 20%{
+    0%, 10%{
         content: "Web Developer";
     }
-    21%, 40%{
+
+    11%, 20%{
+        content: "...";
+    }
+
+    21%, 30%{
         content: "DevOps Developer";
+        color: purple;
     }
-    41%, 60%{
+
+    31%, 40%{
+        content: "...";
+    }
+
+    41%, 50%{
         content: "Developer Advisor";
+        color: aqua;
     }
-    61%, 80%{
+
+    51%, 60%{
+        content: "...";
+    }
+
+    61%, 70%{
         content: "Pixel Artist";
+        color: rgb(36, 136, 138);
     }
-    81%, 100%{
+
+    71%, 80%{
+        content: "...";
+    }    
+
+    81%, 90%{
         content: "I'm Batman";
+        color: #32092c;
     }
+
+    91%, 100%{
+        content: "...";
+    }
+
 }
 
 @media(max-width:1000px) {
